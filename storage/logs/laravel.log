@@ -1,0 +1,350 @@
+[2026-02-21 05:22:49] local.ERROR: Command "session:clear" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    schedule:clear-cache
+    session:table
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"session:clear\" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    schedule:clear-cache
+    session:table
+    view:clear at C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php:745)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(266): Symfony/Component/Console/Application->find('session:clear')
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(175): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/artisan(37): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 {main}
+"} 
+[2026-02-21 05:25:27] local.ERROR: Command "session:clear" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    schedule:clear-cache
+    session:table
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"session:clear\" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    schedule:clear-cache
+    session:table
+    view:clear at C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php:745)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(266): Symfony/Component/Console/Application->find('session:clear')
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(175): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/artisan(37): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#4 {main}
+"} 
+[2026-02-21 05:25:50] local.ERROR: No arguments expected for "session:table" command, got "clear". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): No arguments expected for \"session:table\" command, got \"clear\". at C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Input/ArgvInput.php:196)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Input/ArgvInput.php(89): Symfony/Component/Console/Input/ArgvInput->parseArgument('clear')
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Input/ArgvInput.php(74): Symfony/Component/Console/Input/ArgvInput->parseToken('clear', true)
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Input/Input.php(56): Symfony/Component/Console/Input/ArgvInput->parse()
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Command/Command.php(285): Symfony/Component/Console/Input/Input->bind(Object(Symfony/Component/Console/Input/InputDefinition))
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(1106): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(324): Symfony/Component/Console/Application->doRunCommand(Object(Illuminate/Session/Console/SessionTableCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(175): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#9 C:/Users/ign-112/Desktop/Course_management/backend/artisan(37): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#10 {main}
+"} 
+[2026-02-21 07:31:58] local.ERROR: SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'razorpay_order_id' (Connection: mysql, SQL: alter table `emi_payments` add `razorpay_order_id` varchar(255) null after `razorpay_payment_id`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'razorpay_order_id' (Connection: mysql, SQL: alter table `emi_payments` add `razorpay_order_id` varchar(255) null after `razorpay_payment_id`) at C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php:829)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(783): Illuminate/Database/Connection->runQueryCallback('alter table `em...', Array, Object(Closure))
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(588): Illuminate/Database/Connection->run('alter table `em...', Array, Object(Closure))
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(110): Illuminate/Database/Connection->statement('alter table `em...')
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(602): Illuminate/Database/Schema/Blueprint->build(Object(Illuminate/Database/MySqlConnection), Object(Illuminate/Database/Schema/Grammars/MySqlGrammar))
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(444): Illuminate/Database/Schema/Builder->build(Object(Illuminate/Database/Schema/Blueprint))
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate/Database/Schema/Builder->table('emi_payments', Object(Closure))
+#6 C:/Users/ign-112/Desktop/Course_management/backend/database/migrations/2026_02_21_073057_add_razorpay_order_id_to_emi_payments.php(16): Illuminate/Support/Facades/Facade::__callStatic('table', Array)
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(501): Illuminate/Database/Migrations/Migration@anonymous->up()
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(418): Illuminate/Database/Migrations/Migrator->runMethod(Object(Illuminate/Database/MySqlConnection), Object(Illuminate/Database/Migrations/Migration@anonymous), 'up')
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(427): Illuminate/Database/Migrations/Migrator->Illuminate/Database/Migrations/{closure}()
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(224): Illuminate/Database/Migrations/Migrator->runMigration(Object(Illuminate/Database/Migrations/Migration@anonymous), 'up')
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(37): Illuminate/Database/Migrations/Migrator->Illuminate/Database/Migrations/{closure}()
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(783): Illuminate/Console/View/Components/Task->render('2026_02_21_0730...', Object(Closure))
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(224): Illuminate/Database/Migrations/Migrator->write('Illuminate//Cons...', '2026_02_21_0730...', Object(Closure))
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(189): Illuminate/Database/Migrations/Migrator->runUp('C://Users//ign-11...', 6, false)
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(132): Illuminate/Database/Migrations/Migrator->runPending(Array, Array)
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(92): Illuminate/Database/Migrations/Migrator->run(Array, Array)
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(641): Illuminate/Database/Console/Migrations/MigrateCommand->Illuminate/Database/Console/Migrations/{closure}()
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(104): Illuminate/Database/Migrations/Migrator->usingConnection(NULL, Object(Closure))
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate/Database/Console/Migrations/MigrateCommand->handle()
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#21 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Command/Command.php(326): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(1106): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(324): Symfony/Component/Console/Application->doRunCommand(Object(Illuminate/Database/Console/Migrations/MigrateCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(175): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/artisan(37): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#32 {main}
+
+[previous exception] [object] (PDOException(code: 42S21): SQLSTATE[42S21]: Column already exists: 1060 Duplicate column name 'razorpay_order_id' at C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php:587)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(587): PDOStatement->execute()
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(816): Illuminate/Database/Connection->Illuminate/Database/{closure}('alter table `em...', Array)
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(783): Illuminate/Database/Connection->runQueryCallback('alter table `em...', Array, Object(Closure))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Connection.php(588): Illuminate/Database/Connection->run('alter table `em...', Array, Object(Closure))
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php(110): Illuminate/Database/Connection->statement('alter table `em...')
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(602): Illuminate/Database/Schema/Blueprint->build(Object(Illuminate/Database/MySqlConnection), Object(Illuminate/Database/Schema/Grammars/MySqlGrammar))
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php(444): Illuminate/Database/Schema/Builder->build(Object(Illuminate/Database/Schema/Blueprint))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate/Database/Schema/Builder->table('emi_payments', Object(Closure))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/database/migrations/2026_02_21_073057_add_razorpay_order_id_to_emi_payments.php(16): Illuminate/Support/Facades/Facade::__callStatic('table', Array)
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(501): Illuminate/Database/Migrations/Migration@anonymous->up()
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(418): Illuminate/Database/Migrations/Migrator->runMethod(Object(Illuminate/Database/MySqlConnection), Object(Illuminate/Database/Migrations/Migration@anonymous), 'up')
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(427): Illuminate/Database/Migrations/Migrator->Illuminate/Database/Migrations/{closure}()
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(224): Illuminate/Database/Migrations/Migrator->runMigration(Object(Illuminate/Database/Migrations/Migration@anonymous), 'up')
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/View/Components/Task.php(37): Illuminate/Database/Migrations/Migrator->Illuminate/Database/Migrations/{closure}()
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(783): Illuminate/Console/View/Components/Task->render('2026_02_21_0730...', Object(Closure))
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(224): Illuminate/Database/Migrations/Migrator->write('Illuminate//Cons...', '2026_02_21_0730...', Object(Closure))
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(189): Illuminate/Database/Migrations/Migrator->runUp('C://Users//ign-11...', 6, false)
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(132): Illuminate/Database/Migrations/Migrator->runPending(Array, Array)
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(92): Illuminate/Database/Migrations/Migrator->run(Array, Array)
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(641): Illuminate/Database/Console/Migrations/MigrateCommand->Illuminate/Database/Console/Migrations/{closure}()
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php(104): Illuminate/Database/Migrations/Migrator->usingConnection(NULL, Object(Closure))
+#21 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Illuminate/Database/Console/Migrations/MigrateCommand->handle()
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate/Container/BoundMethod::Illuminate/Container/{closure}()
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate/Container/Util::unwrapIfClosure(Object(Closure))
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate/Container/BoundMethod::callBoundMethod(Object(Illuminate/Foundation/Application), Array, Object(Closure))
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Container/Container.php(662): Illuminate/Container/BoundMethod::call(Object(Illuminate/Foundation/Application), Array, Array, NULL)
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(211): Illuminate/Container/Container->call(Array)
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Command/Command.php(326): Illuminate/Console/Command->execute(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Console/Command.php(181): Symfony/Component/Console/Command/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Illuminate/Console/OutputStyle))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(1106): Illuminate/Console/Command->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(324): Symfony/Component/Console/Application->doRunCommand(Object(Illuminate/Database/Console/Migrations/MigrateCommand), Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/console/Application.php(175): Symfony/Component/Console/Application->doRun(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#32 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(201): Symfony/Component/Console/Application->run(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#33 C:/Users/ign-112/Desktop/Course_management/backend/artisan(37): Illuminate/Foundation/Console/Kernel->handle(Object(Symfony/Component/Console/Input/ArgvInput), Object(Symfony/Component/Console/Output/ConsoleOutput))
+#34 {main}
+"} 
+[2026-02-24 05:25:10] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:477)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(811): Illuminate/Routing/UrlGenerator->route('login', Array, true)
+#1 C:/Users/ign-112/Desktop/Course_management/backend/app/Http/Middleware/Authenticate.php(15): route('login')
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(96): App/Http/Middleware/Authenticate->redirectTo(Object(Illuminate/Http/Request))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(81): Illuminate/Auth/Middleware/Authenticate->unauthenticated(Object(Illuminate/Http/Request), Array)
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(55): Illuminate/Auth/Middleware/Authenticate->authenticate(Object(Illuminate/Http/Request), Array)
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure), 'sanctum')
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(25): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->Laravel/Sanctum/Http/Middleware/{closure}(Object(Illuminate/Http/Request))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(26): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/ign-112/Desktop/Course_management/backend/public/index.php(52): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('C://Users//ign-11...')
+#37 {main}
+"} 
+[2026-02-24 05:25:25] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:477)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(811): Illuminate/Routing/UrlGenerator->route('login', Array, true)
+#1 C:/Users/ign-112/Desktop/Course_management/backend/app/Http/Middleware/Authenticate.php(15): route('login')
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(96): App/Http/Middleware/Authenticate->redirectTo(Object(Illuminate/Http/Request))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(81): Illuminate/Auth/Middleware/Authenticate->unauthenticated(Object(Illuminate/Http/Request), Array)
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(55): Illuminate/Auth/Middleware/Authenticate->authenticate(Object(Illuminate/Http/Request), Array)
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure), 'sanctum')
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(25): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->Laravel/Sanctum/Http/Middleware/{closure}(Object(Illuminate/Http/Request))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(26): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/ign-112/Desktop/Course_management/backend/public/index.php(52): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('C://Users//ign-11...')
+#37 {main}
+"} 
+[2026-02-26 10:46:49] local.ERROR: Route [login] not defined. {"exception":"[object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [login] not defined. at C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:477)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(811): Illuminate/Routing/UrlGenerator->route('login', Array, true)
+#1 C:/Users/ign-112/Desktop/Course_management/backend/app/Http/Middleware/Authenticate.php(15): route('login')
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(96): App/Http/Middleware/Authenticate->redirectTo(Object(Illuminate/Http/Request))
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(81): Illuminate/Auth/Middleware/Authenticate->unauthenticated(Object(Illuminate/Http/Request), Array)
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(55): Illuminate/Auth/Middleware/Authenticate->authenticate(Object(Illuminate/Http/Request), Array)
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure), 'sanctum')
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(25): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->Laravel/Sanctum/Http/Middleware/{closure}(Object(Illuminate/Http/Request))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(26): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->handle(Object(Illuminate/Http/Request), Object(Closure))
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#33 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#34 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#35 C:/Users/ign-112/Desktop/Course_management/backend/public/index.php(52): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#36 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('C://Users//ign-11...')
+#37 {main}
+"} 
+[2026-03-07 05:56:54] local.ERROR: Failed to authenticate on SMTP server with username "theswift321@gmail.com" using the following authenticators: "LOGIN", "PLAIN", "XOAUTH2". Authenticator "LOGIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-829a48b406csm3706565b3a.53 - gsmtp".". Authenticator "PLAIN" returned "Expected response code "235" but got code "535", with message "535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-829a48b406csm3706565b3a.53 - gsmtp".". Authenticator "XOAUTH2" returned "Expected response code "235" but got code "334", with message "334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==".". {"exception":"[object] (Symfony\\Component\\Mailer\\Exception\\TransportException(code: 334): Failed to authenticate on SMTP server with username \"theswift321@gmail.com\" using the following authenticators: \"LOGIN\", \"PLAIN\", \"XOAUTH2\". Authenticator \"LOGIN\" returned \"Expected response code \"235\" but got code \"535\", with message \"535-5.7.8 Username and Password not accepted. For more information, go to
+
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-829a48b406csm3706565b3a.53 - gsmtp\".\". Authenticator \"PLAIN\" returned \"Expected response code \"235\" but got code \"535\", with message \"535-5.7.8 Username and Password not accepted. For more information, go to
+
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-829a48b406csm3706565b3a.53 - gsmtp\".\". Authenticator \"XOAUTH2\" returned \"Expected response code \"235\" but got code \"334\", with message \"334 eyJzdGF0dXMiOiI0MDAiLCJzY2hlbWVzIjoiQmVhcmVyIiwic2NvcGUiOiJodHRwczovL21haWwuZ29vZ2xlLmNvbS8ifQ==\".\". at C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php:226)
+[stacktrace]
+#0 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(161): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->handleAuth(Array)
+#1 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/EsmtpTransport.php(118): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->doEhloCommand()
+#2 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(243): Symfony/Component/Mailer/Transport/Smtp/EsmtpTransport->executeCommand('HELO [127.0.0.1...', Array)
+#3 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(266): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doHeloCommand()
+#4 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(199): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->start()
+#5 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/AbstractTransport.php(69): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->doSend(Object(Symfony/Component/Mailer/SentMessage))
+#6 C:/Users/ign-112/Desktop/Course_management/backend/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.php(137): Symfony/Component/Mailer/Transport/AbstractTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#7 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(573): Symfony/Component/Mailer/Transport/Smtp/SmtpTransport->send(Object(Symfony/Component/Mime/Email), Object(Symfony/Component/Mailer/DelayedEnvelope))
+#8 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php(335): Illuminate/Mail/Mailer->sendSymfonyMessage(Object(Symfony/Component/Mime/Email))
+#9 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/Channels/MailChannel.php(69): Illuminate/Mail/Mailer->send(Object(Closure), Array, Object(Closure))
+#10 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php(148): Illuminate/Notifications/Channels/MailChannel->send(Object(App/Models/User), Object(Illuminate/Auth/Notifications/ResetPassword))
+#11 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php(106): Illuminate/Notifications/NotificationSender->sendToNotifiable(Object(App/Models/User), 'b52914ad-91f4-4...', Object(Illuminate/Auth/Notifications/ResetPassword), 'mail')
+#12 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Support/Traits/Localizable.php(19): Illuminate/Notifications/NotificationSender->Illuminate/Notifications/{closure}()
+#13 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php(109): Illuminate/Notifications/NotificationSender->withLocale(NULL, Object(Closure))
+#14 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/NotificationSender.php(79): Illuminate/Notifications/NotificationSender->sendNow(Object(Illuminate/Database/Eloquent/Collection), Object(Illuminate/Auth/Notifications/ResetPassword))
+#15 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/ChannelManager.php(39): Illuminate/Notifications/NotificationSender->send(Object(Illuminate/Database/Eloquent/Collection), Object(Illuminate/Auth/Notifications/ResetPassword))
+#16 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Notifications/RoutesNotifications.php(18): Illuminate/Notifications/ChannelManager->send(Object(App/Models/User), Object(Illuminate/Auth/Notifications/ResetPassword))
+#17 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php(27): App/Models/User->notify(Object(Illuminate/Auth/Notifications/ResetPassword))
+#18 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBroker.php(72): Illuminate/Foundation/Auth/User->sendPasswordResetNotification('87cf72b9a931db0...')
+#19 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php(143): Illuminate/Auth/Passwords/PasswordBroker->sendResetLink(Array)
+#20 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate/Auth/Passwords/PasswordBrokerManager->__call('sendResetLink', Array)
+#21 C:/Users/ign-112/Desktop/Course_management/backend/app/Http/Controllers/AuthController.php(145): Illuminate/Support/Facades/Facade::__callStatic('sendResetLink', Array)
+#22 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App/Http/Controllers/AuthController->forgotPassword(Object(Illuminate/Http/Request))
+#23 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(43): Illuminate/Routing/Controller->callAction('forgotPassword', Array)
+#24 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Route.php(260): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/AuthController), 'forgotPassword')
+#25 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Route.php(205): Illuminate/Routing/Route->runController()
+#26 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(806): Illuminate/Routing/Route->run()
+#27 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#28 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#30 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(159): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(135): Illuminate/Routing/Middleware/ThrottleRequests->handleRequest(Object(Illuminate/Http/Request), Object(Closure), Array)
+#32 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php(87): Illuminate/Routing/Middleware/ThrottleRequests->handleRequestUsingNamedLimiter(Object(Illuminate/Http/Request), Object(Closure), 'api', Object(Closure))
+#33 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Routing/Middleware/ThrottleRequests->handle(Object(Illuminate/Http/Request), Object(Closure), 'api')
+#34 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(25): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#35 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->Laravel/Sanctum/Http/Middleware/{closure}(Object(Illuminate/Http/Request))
+#36 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/sanctum/src/Http/Middleware/EnsureFrontendRequestsAreStateful.php(26): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#38 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Laravel/Sanctum/Http/Middleware/EnsureFrontendRequestsAreStateful->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#41 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#42 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#43 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#44 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#45 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#46 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#47 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#52 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#53 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#55 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#56 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#57 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#58 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#59 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#60 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#61 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#62 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#63 C:/Users/ign-112/Desktop/Course_management/backend/public/index.php(52): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#64 C:/Users/ign-112/Desktop/Course_management/backend/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('C://Users//ign-11...')
+#65 {main}
+"} 
