@@ -3,6 +3,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\PaymentController;
+use App\Http\Controllers\ExamController;
 use App\Http\Controllers\Admin\{
     CourseController,
     CategoryController,
@@ -130,6 +131,19 @@ Route::middleware('auth:sanctum')->group(function () {
             Route::get('/by-course', [PaymentStatsController::class, 'byCourse']);
             Route::get('/by-student', [PaymentStatsController::class, 'byStudent']);
         });
+
+        Route::post('/exams', [ExamController::class,'store']);
+        Route::delete('/exams/{id}',[ExamController::class,'destroy']);
+        Route::put('/exams/{id}', [ExamController::class,'update']);
+        Route::get('/exams/{id}', [ExamController::class, 'show']);
+        Route::get('/exams-list', [ExamController::class,'index']);
+        Route::post('/questions', [ExamController::class,'storeQuestion']);
+        Route::get('/exams/{examId}/questions',[ExamController::class,'getquestionlist']);
+
+        Route::put('/questions/{id}',[ExamController::class,'updateQuestion']);
+        Route::delete('/questions/{id}',[ExamController::class,'destroyQuestion']);
+
+
         
 
     });
