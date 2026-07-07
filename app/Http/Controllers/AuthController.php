@@ -99,6 +99,7 @@ class AuthController extends Controller
                 'message' => 'Invalid Google token'
             ], 401);
         }
+        
 
         $user = User::where('google_id', $payload['sub'])->first();
 
@@ -121,6 +122,12 @@ class AuthController extends Controller
                     'photo'     => $payload['picture'] ?? null,
                 ]);
             }
+        }
+
+        if ($user->status === 0) {
+            return response()->json([
+                'message' => 'Your account is inactive. Please contact admin.'
+            ], 403);
         }
 
         $token = $user->createToken('auth_token')->plainTextToken;
